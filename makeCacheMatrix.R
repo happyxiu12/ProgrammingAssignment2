@@ -4,7 +4,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {                                ##establishes the function makeCacheMatrix
                     inv <- NULL                                            
-                    set <- function(y){                                    #sets the value of the matrix
+                    set <- function(y){                                    ##sets the value of the matrix
                             x <<- y 
                             inv <<- NULL
                     }
